@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf=8">
+        <title>Reinado Tolentino - Links</title>
+        <link rel="stylesheet" href="./index.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+        <script>
+            window.addEventListener('DOMContentLoaded', () => {
+                VANTA.BIRDS({
+                    el: "#vanta",
+                    mouseControls: true,
+                    touchControls: true,
+                    gyroControls: true,
+                    minHeight: 200.00,
+                    minWidth: 200.00,
+                    quantity: 4,
+                    scale: 1.00,
+                    scaleMobile: 1.00,
+                    backgroundAlpha: 0,
+                    color1: 0xe0f2e8,
+                    color2: 0xeef4fa,
+                    birdSize: 0.90,
+                    wingSpan: 22.00
+                })
+                setTimeout(() => {
+                    const main = document.querySelector('main')
+                    main.style.opacity = 1
+                    main.style.filter = 'blur(0px)'
+                }, 1000)
+
+
+            })
+        </script>
+    </head>
+
+    <body>
+        <div id="vanta"></div>
+        <main>
+        <header>
+            <img src="./images/junior.jpg" />
+            <h1>@reinaldojunior_</h1>
+        </header>
+            <ul>
+                <li>
+                    <a href="https://reinaldojrbento.wordpress.com">
+                        <img src="./images/wordpress1.svg" alt="Wordpress" width="20">
+                        Wordpress Website
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/reinaldo_tbjr">
+                        <img src="./images/twitter.svg" alt="Twitter" width="20">
+                    Twitter
+                </a>
+                </li>
+                <li>
+                    <a href="https://github.com/ReinaldoJuunior">
+                        <img src="./images/github3.svg" alt="github" width="20">
+                    Github
+                    </a>
+                </li>
+                 <li>
+                    <a href="https://linkedin.com/in/reinaldotolentino">
+                        <img src="./images/linkedin1.png" alt="Linkedin" width="20">
+                    Linkedin
+                    </a>
+                </li>
+            </ul>
+      </main>
+    </body>
+</html>
