@@ -1,3 +1,3 @@
 # Page Link instagram:
 
-https://links-juunior.vercel.app/
+https://links-junior.vercel.app/
